@@ -1,0 +1,59 @@
+.mastersongname{
+    position: unset;
+    font-size: 16px;
+    width: 60%;
+    margin:3px 0px;
+    text-align: center;
+} 
+.masterplay,.previous,.next {
+    font-size: 2em;
+}
+.container{
+    width: 100%;
+}
+.navbar{
+    font-size:1rem;
+    gap:10px;
+    background:black;
+}
+.songitem img {
+    width: 29px;
+    margin-left: 1px;
+    border-radius: 32px;
+}
+.songname{
+    font-size: 12px;
+}
+
+@media screen and (max-width:393px){
+.audiocontrol{
+        width:100%;
+}
+.masterplay,.previous,.next{
+       margin: 0 5px;
+       padding:0 6px;
+}
+.mastersongname{
+    font-size: 16px;
+    width: 100%;
+    margin:3px 0px;
+} 
+.songlistplay{
+    font-size: 13px;
+}
+.container{
+    text-align: center;
+}
+.navbar{
+    font-size:0.9rem;
+    gap:6px;
+    background:black;
+    justify-content: space-around;
+}
+.navlist{
+    gap:35px;
+}
+.logo-text{
+    font-size: 1rem;
+}
+}

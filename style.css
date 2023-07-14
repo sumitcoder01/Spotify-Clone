@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400&family=Varela+Round&display=swap');
+/* CSS Reset */
+
+body{
+background: rgb(207, 207, 207);
+margin: 0;
+padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+/* utility Classes */
+.d-flex{
+    display: flex;
+}
+/* navbar */
+.navbar{
+    font-size:1.1rem;
+    color: white; 
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    gap:50px;
+    background:black;
+    height: 67px;
+}
+#logo{
+    align-items: center;
+    justify-content: center;
+}
+.logo-text{
+    font-size: 2.3rem;
+}
+#logo img{
+    margin:0 2px;
+    height: 40px;
+    width: 40px;
+}
+.navlist{
+    gap:60px
+}
+/* container */
+.container{
+    color:white;
+    min-height: 80vh;
+    font-family: 'Varela Round', sans-serif;
+    width: 75%;
+    margin: 23px auto;
+    margin-bottom: 0px;
+    background: url(bg.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.container h1{
+    padding:18px 17px;
+}
+.songlist{
+    width: 50%;
+    flex-direction: column;
+    gap:10px;
+}
+.songitem{
+    background: white;
+    height: 50px;
+    border: solid black 1px;
+    border-radius: 15px;
+    color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin:2px;
+    margin-bottom:3px;
+}
+.songitem img{
+    width: 43px;
+    margin-left:3px;
+    border-radius: 34px;
+}
+.songlistplay i{
+    margin-right:1px;
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    bottom:0;
+    height:150px;
+    background: black;
+    color:white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
+}
+#progressbar{
+    width: 58%;
+    cursor: pointer;
+}
+.audiocontrol{
+    width: 30%;
+    text-align: center;
+}
+.audiocontrol i{
+    margin:4px 0;
+    cursor: pointer;
+}
+.mastersongname{
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:19px;
+    left: 47px;
+}
+#gif{
+    opacity: 0;
+    width: 8%;
+    height: 20%;
+    margin: 0 3px;
+}
+   

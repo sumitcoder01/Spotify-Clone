@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spotify - Here Your Favorite Song's</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  media="screen and (max-width:787px" href="phone.css">
+</head>
+<body>
+    <nav class="navbar d-flex">
+        <div id="logo" class="d-flex">
+            <img src="logo.png" alt=">>">
+            <span class="logo-text">Spotify</span>
+        </div>
+        <ul class="navlist d-flex">
+            <li><a target="_blank" href="index.html">Home</a></li>
+            <li><a target="_blank" href="index.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Best of NCS - No Copyright Sounds</h1>
+        <div class="songlist d-flex">
+            <div class="songitem d-flex">
+                <img src="covers/1.jpg" alt="1">
+                <span class="songname">Let me Love you</span>
+                <span class="songlistplay">4:54 <i class="fa fa-play-circle-o" id="1"></i></span>
+            </div>
+            <div class="songitem d-flex">
+                <img src="covers/2.jpg" alt="2">
+                <span class="songname">Let me Love you</span>
+                <span class="songlistplay">5:57 <i class="fa fa-play-circle-o" id="2"></i></span>
+            </div>
+            <div class="songitem d-flex">
+                <img src="covers/3.jpg" alt="3">
+                <span class="songname">Let me Love you</span>
+                <span class="songlistplay">3:54 <i class="fa fa-play-circle-o" id="3"></i></span>
+            </div>
+            <div class="songitem d-flex">
+                <img src="covers/4.jpg" alt="4">
+                <span class="songname">Let me Love you</span>
+                <span class="songlistplay">6:54 <i class="fa fa-play-circle-o" id="4"></i></span>
+            </div>
+            <div class="songitem d-flex">
+                <img src="covers/5.jpg" alt="5">
+                <span class="songname">Let me Love you</span>
+                <span class="songlistplay">4:57 <i class="fa fa-play-circle-o" id="5"></i></span>
+            </div>
+            <div class="songitem d-flex">
+                <img src="covers/6.jpg" alt="6">
+                <span class="songname">Let me Love you</span>
+                <span class="songlistplay">4:56 <i class="fa fa-play-circle-o" id="6"></i></span>
+            </div>
+            <div class="songitem d-flex">
+                <img src="covers/7.jpg" alt="7">
+                <span class="songname">Let me Love you</span>
+                <span class="songlistplay">4:74 <i class="fa fa-play-circle-o" id="7"></i></span>
+            </div>
+            <div class="songitem d-flex">
+                <img src="covers/8.jpg" alt="8">
+                <span class="songname">Let me Love you</span>
+                <span class="songlistplay">4:59 <i class="fa fa-play-circle-o" id="8"></i></span>
+            </div>
+            <div class="songitem d-flex">
+                <img src="covers/9.jpg" alt="9">
+                <span class="songname">Let me Love you</span>
+                <span class="songlistplay">4:50 <i class="fa fa-play-circle-o" id="9"></i></span>
+            </div>
+            <div class="songitem d-flex">
+                <img src="covers/10.jpg" alt="10">
+                <span class="songname">Let me Love you</span>
+                <span class="songlistplay">8:00 <i class="fa fa-play-circle-o" id="10"></i></span>
+            </div>
+        </div>
+    </div>
+    <div class="bottom d-flex">
+        <input type="range" name="progress" id="progressbar" min="0" max="100">
+        <div class="audiocontrol">
+            <i class="fas fa-3x fa-step-backward previous"></i>
+            <i class=" masterplay fa fa-3x fa-play-circle-o"></i>
+            <i class="fas fa-3x fa-step-forward next"></i>
+        </div>
+        <span class="mastersongname">
+            <img src="playing.gif" id='gif' alt="playing"> <span id="mastersong">Let me Love you</span>
+        </span>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f24b13c5cc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
